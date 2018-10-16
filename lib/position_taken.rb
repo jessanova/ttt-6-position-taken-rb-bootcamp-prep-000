@@ -7,24 +7,3 @@ def position_taken?(board, index)
   end
   return true
 end
-
-
-def tester
-  if " "==" " 
-    puts "yes1"
-  end
-  if ""==""
-    puts "yes2"
-  end
-  if "".empty?
-    puts "yes3"
-  end
-  if nil==nil
-    puts "yes4"
-  end
-  if nil.nil?
-    puts "yes5"
-  end
-end
-
-tester
